@@ -1,6 +1,6 @@
 # **Unit 09 Node.js and ES6+ Homework: Good README Generator**
 
-![GitHub license](https://img.shields.io/badge/Made%20by-%40hoffman1200-orange)
+![GitHub license](https://img.shields.io/badge/Made%20by-%40WasteOfADrumBum-red)
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
@@ -44,7 +44,7 @@ The user will be prompted for their GitHub username and other information pertai
 
 ## Contributors
 
-![GitHub license](https://img.shields.io/badge/Made%20by-%40WasteOfADrumBum-orange)
+![GitHub license](https://img.shields.io/badge/Made%20by-%40WasteOfADrumBum-red)
 
 ## Test
 
