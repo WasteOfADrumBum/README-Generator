@@ -1,6 +1,5 @@
-
 function generateMarkdown(data, githubInfo) {
-  return `
+	return `
 # **${data.title}**
 
 ${data.badge}
@@ -14,24 +13,24 @@ ${data.description}
 - [Description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Licence](#Licence)
+- [Repository Link](#Repository)
 - [Contributors](#Contributors)
 - [Test](#Test)
-- [Repository Link](#Repository)
+- [Licence](#Licence)
 - [GitHub Info](#GitHub) 
 
 
 ## Installation
 
-        ${data.installation}
+${data.installation}
 
 ## Usage
 
 ${data.usage}
 
-## Licence
+## Repository
 
-${data.licence}
+- [Project Repo](${data.repo})
 
 ## Contributors
 
@@ -41,10 +40,9 @@ ${data.contributing}
 
 ${data.test}
 
+## Licence
 
-## Repository
-
-- [Project Repo](${data.repo})
+${data.licence}
 
 ## GitHub
 
