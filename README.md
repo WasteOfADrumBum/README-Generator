@@ -9,6 +9,8 @@ When creating an open source project on GitHub, it is important to have a qualit
 
 ### App working example
 
+![Image of me](assets/images/readmegen.gif)
+
 ### README example
 
 ## Table of contents
