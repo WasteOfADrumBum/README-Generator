@@ -3,6 +3,10 @@ const fs = require("fs");
 const axios = require("axios");
 const generate = require("./utils/generateMarkdown");
 
+const path = require("path");
+const OUTPUT_DIR = path.resolve(__dirname, "output");
+const outputPath = path.join(OUTPUT_DIR, "README.md");
+
 const questions = [
 	{
 		type: "input",
@@ -70,7 +74,7 @@ inquirer.prompt(questions).then(function (data) {
 			githubImage: res.data.avatar_url,
 		};
 
-		fs.writeFile("README.md", generate(data, githubInfo), function (err) {
+		fs.writeFile(outputPath, generate(data, githubInfo), function (err) {
 			if (err) {
 				throw err;
 			}

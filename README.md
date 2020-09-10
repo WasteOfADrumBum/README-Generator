@@ -1,9 +1,8 @@
-
 # **Unit 09 Node.js and ES6+ Homework: Good README Generator**
 
 ![GitHub license](https://img.shields.io/badge/Made%20by-%40WasteOfADrumBum-green)
 
-## Description 
+## Description
 
 A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
 
@@ -46,7 +45,6 @@ This command-line application generates a README.md from a user's input.
 ![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/WasteOfADrumBum/README-Generator)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/WasteOfADrumBum/README-Generator)
 
-
 ![GitHubopen pull request](https://img.shields.io/github/issues-pr/WasteOfADrumBum/README-Generator)
 ![GitHub closed pull request](https://img.shields.io/github/issues-pr-closed/WasteOfADrumBum/README-Generator)
 
@@ -55,8 +53,6 @@ This command-line application generates a README.md from a user's input.
 - [Project Repo](https://github.com/WasteOfADrumBum/README-Generator)
 
 ## Contributors
-
-
 
 ![GitHub contributors](https://img.shields.io/github/contributors/WasteOfADrumBum/README-Generator)
 ![GitHub Forks](https://img.shields.io/github/forks/WasteOfADrumBum/README-Generator?label=Fork)
@@ -81,4 +77,3 @@ This command-line application generates a README.md from a user's input.
 - [GitHub Profile](https://github.com/WasteOfADrumBum)
 - <JMSmall89@gmail.com>
 - ![GitHub Followers](https://img.shields.io/github/followers/WasteOfADrumBum?label=Follow)
-
