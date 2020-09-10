@@ -11,38 +11,33 @@ const questions = [
 	},
 	{
 		type: "input",
-		name: "badge",
-		message: "What badge links do you want",
-	},
-	{
-		type: "input",
 		name: "description",
 		message: "Describe your project.",
 	},
 	{
 		type: "input",
 		name: "installation",
-		message: "Please provide the installation instructions",
+		message: "Please provide the installation instructions.",
 	},
 	{
 		type: "input",
 		name: "usage",
-		message: "What's the project's usage",
+		message: "Please provide the opperation instructions?",
 	},
 	{
 		type: "input",
-		name: "licence",
-		message: "Do you have a project licence or your badge link",
+		name: "features",
+		message: "Please provide the features of your application.",
+	},
+	{
+		type: "input",
+		name: "gif",
+		message: "What's the URL or reletive path for your example image?",
 	},
 	{
 		type: "input",
 		name: "contributing",
-		message: "Are there any other contributing parties",
-	},
-	{
-		type: "input",
-		name: "test",
-		message: "What were the project tests?",
+		message: "Are there any other contributing parties?",
 	},
 	{
 		type: "input",
@@ -51,8 +46,19 @@ const questions = [
 	},
 	{
 		type: "input",
-		name: "repo",
-		message: "What is the link to the repo?",
+		name: "name",
+		message: "What is your name?",
+	},
+	{
+		type: "input",
+		name: "email",
+		message: "What is your email?",
+	},
+	{
+		type: "input",
+		name: "reponame",
+		message:
+			"What is the link to the repo?\ni.e. https://github.com/[user_name]/[repo_link]",
 	},
 ];
 
@@ -62,9 +68,6 @@ inquirer.prompt(questions).then(function (data) {
 	axios.get(queryUrl).then(function (res) {
 		const githubInfo = {
 			githubImage: res.data.avatar_url,
-			email: res.data.email,
-			profile: res.data.html_url,
-			name: res.data.name,
 		};
 
 		fs.writeFile("README.md", generate(data, githubInfo), function (err) {
