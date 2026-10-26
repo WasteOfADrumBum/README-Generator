@@ -79,6 +79,6 @@ React is an open-source JavaScript frontend framework for building an intuitive 
 
 - Joshua M Small
 - [GitHub Profile](https://github.com/WasteOfADrumBum)
-- <jmsmall89@gmail.com>
+- <sample-52e532df@example.com>
 - ![GitHub Followers](https://img.shields.io/github/followers/WasteOfADrumBum?label=Follow)
 
