@@ -1,3 +1,5 @@
+> **Retired reference — archive preparation.** This project is no longer maintained or deployed. See [RETIREMENT.md](RETIREMENT.md) for preservation notes and cleanup limits.
+
 # **Unit 09 Node.js and ES6+ Homework: Good README Generator**
 
 ![GitHub license](https://img.shields.io/badge/Made%20by-%40WasteOfADrumBum-green)
@@ -75,5 +77,5 @@ This command-line application generates a README.md from a user's input.
 
 - Joshua M. Small
 - [GitHub Profile](https://github.com/WasteOfADrumBum)
-- <JMSmall89@gmail.com>
+- <sample-52e532df@example.com>
 - ![GitHub Followers](https://img.shields.io/github/followers/WasteOfADrumBum?label=Follow)
